@@ -2,5 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-$home = new \App\Controllers\HomeController;
+use  App\Controllers\HomeController as Home;
+
+$home = new Home;
 echo $home->index();

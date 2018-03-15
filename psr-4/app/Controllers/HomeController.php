@@ -6,6 +6,6 @@ class HomeController
 {
     public function index()
     {
-        return 'Index';
+        return 'Index Ok';
     }
 }
