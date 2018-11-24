@@ -1,7 +1,6 @@
 # PHP PSRs
 
-Curso PHP PSRs (Boas Práticas) - Carlos Ferreira da Especializa TI 
-Link https://www.youtube.com/playlist?list=PLVSNL1PHDWvRP0Udzif5LssOZZWUoAoq0
+Curso PHP PSRs (Boas Práticas) - Carlos Ferreira da Especializa TI - https://www.youtube.com/playlist?list=PLVSNL1PHDWvRP0Udzif5LssOZZWUoAoq0
 
 ## Instalação
 
