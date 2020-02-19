@@ -47,12 +47,12 @@ Criando banco dados postgres:
 
 ```
 docker exec -it postgres bash
-psql -U webadm -c "CREATE DATABASE mvc_cms";
+psql -U webadm -c "CREATE DATABASE php-psr";
 ```
 
 Realizando a importação dump sql para a base criada:
 ```
-psql -U webadm mvc_cms < /var/lib/postgresql/sqlscript/mvc_cms.pgsql
+psql -U webadm php-psr < /var/lib/postgresql/sqlscript/php-psr.pgsql
 ```
 
 Para o acesso no <strong>POSTGRES</strong> database administration tool, use http://localhost:5050 e use as credênciais abaixo:
@@ -66,12 +66,12 @@ Criando banco dados postgres:
 
 ```
 docker exec -it mysql bash
-mysql -u root -c "CREATE DATABASE mvc_cms;";
+mysql -u root -c "CREATE DATABASE php-psr;";
 ```
 
 Realizando a importação dump sql para a base criada:
 ```
-mysql -u root -p mvc_cms < /var/lib/mysql57/mvc_cms.sql
+mysql -u root -p php-psr < /var/lib/mysql57/php-psr.sql
 ```
 
 Para o acesso no <strong>MYSQL</strong> database administration tool, use http://localhost:8080 e use as credênciais abaixo:
