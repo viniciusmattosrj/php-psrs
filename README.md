@@ -17,7 +17,7 @@
 ## Instalação
 Realizar o git clone do projeto
 ```bash
-git@github.com:viniciusmattosrj/mvc-cms.git
+git@github.com:viniciusmattosrj/PHP-PSRs.git
 ```
 
 Para que o git não considere alterações de permissão como modificações a serem rastreadas, execute:
