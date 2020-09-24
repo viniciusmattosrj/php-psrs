@@ -11,13 +11,13 @@
 
 - PHP >= 7.1
 
-- Postgres >= 9.6 ou Mysql >= 5.7
+- Postgres >= 11 ou Mysql >= 5.7
 
 
 ## Instalação
-Realizar o git clone do projeto base para o funcionamento da sua rede docker:
+Para o correto funcionamento dos serviços base no docker é necessário executar:
 ```bash
-git@github.com:viniciusmattosrj/projetos.git
+git clone git@github.com:viniciusmattosrj/projetos.git
 ```
 
 Para que o git não considere alterações de permissão como modificações a serem rastreadas, execute:
@@ -25,14 +25,14 @@ Para que o git não considere alterações de permissão como modificações a s
 git config core.fileMode false
 ```
 
-Agora suba o servidor:
+Para subir os containers docker execute:
 ```
 docker-compose up -d
 ```
 
-Navege até dentro da pasta projetos e realize o git clone do projeto
+Navege até dentro da pasta projetos e realize o git clone do projeto:
 ```bash
-cd projetos && git@github.com:viniciusmattosrj/PHP-PSRs.git
+cd projetos && git clone git@github.com:viniciusmattosrj/PHP-PSRs.git
 ```
 
 Para que o git não considere alterações de permissão como modificações a serem rastreadas, execute:
@@ -40,17 +40,17 @@ Para que o git não considere alterações de permissão como modificações a s
 git config core.fileMode false
 ```
 
-Entre pelo terminal na pasta do projeto e rode:
+Na pasta do projeto através do terminal execute:
 ```
-cp ./docker-compose-example.php  ./docker-compose.php
+cp -v ./docker-compose-example.php  ./docker-compose.php
 ```
 
-Agora suba o servidor:
+Suba os containers docker executando:
 ```
 docker-compose up -d
 ```
 
-Em outra aba do terminal se conecte no container do php e inicie um servidor built in do PHP
+Em outra aba do terminal se conecte no container do php e inicie um servidor built in do PHP:
 ```
 docker exec -it php bash
 php -S 10.11.0.11:8008 -t .
