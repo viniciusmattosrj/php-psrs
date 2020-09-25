@@ -15,7 +15,7 @@
 
 
 ## Instalação
-Para o correto funcionamento dos serviços base no docker é necessário executar:
+Para o correto funcionamento dos serviços base na rede do docker, execute o comando para clonar o projeto:
 ```bash
 git clone git@github.com:viniciusmattosrj/projetos.git
 ```
